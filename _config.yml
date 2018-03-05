@@ -19,10 +19,7 @@ defaults:
 #    scope:
 #      path: "style-guide"
     values:
-layout: vertical
-permalink: kleur/
-published: true
-title: Kleur intro
+      layout: vertical
 
 exclude:
   - Gemfile
