@@ -3,7 +3,37 @@
 */
 .navbar a {
     border: none;
+    background-color: transparent;
 }
+.navbarhome{
+  background-color: $clientcolor-1;
+}
+.bg-light{
+  background-color: transparent !important;
+}
+.imgnav{
+  width: 200px;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Body
+---------------------------------------------
+*/
+main{
+  max-width: 100%;}
+}
+.logohome{
+  width: 300px;
+  margin-top: 6em;
+  margin-bottom: 2em;
+}
+.header{
+ width: 1200px;
+}
+
+
 
 /* FOOTER
 ----------------------------------------------

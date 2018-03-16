@@ -5,7 +5,7 @@ published: true
 title: Logo intro
 ---
 
-# Het beste logo ooit
+# Het beste logo ooit gemaakt
 
 ## Consectetur adipiscing elit.
 

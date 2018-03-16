@@ -15,14 +15,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-weight: $font-weight-light;
+    text-align: center;
+    font-weight: $font-weight-base;
     font-size: 4rem;
-    color: $color-grey-2;
+    color: $clientcolor-1;
 }
 h2 {
     font-weight: $font-weight-light;
     font-size: 2rem;
     margin: 2rem 0 1rem;
+    color: rgba($color: #A47B2C, $alpha: 1.0)
 }
 h3, h4, h5, h6 {
     font-size: 1rem;
@@ -38,7 +40,7 @@ a {
         border-bottom: solid 1px $body-link;
     }
     &:active{
-        background-color: $body-link;
+        background-color: $clientcolor-1;
         color: $color-white;
     }
     &:focus{}
