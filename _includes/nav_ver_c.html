@@ -1,14 +1,18 @@
-<img class="imgnav" src="{{ '/images/logo/logoGW.png' | relative_url }}">
-<nav class="navbar navbar-expand-md navbar-light bg-light flex-column custom-nav-ver">
 
-    <a class="navbar-brand" href="#">K.V.C Kessel-Lo</a>
+<nav class="navbar navbar-expand-md navbar-light bg-light flex-column custom-nav-ver">
+   
+    <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
+    
+    <a class="navbar-brand" href="#"></a>
 
     <div class="collapse navbar-collapse flex-column" id="mainNavigation">
+            <div class="fixed-top">
+                    <img class="imgnav" src="{{ '/images/logo/logoGW.png' | relative_url }}">
 
-    <ul class="navbar-nav flex-column">
+    <ul class="navitem navbar-nav flex-column">
 {%- for nav-item in site.data.navigation %}
     
     {%- capture item_classes %}{% if page.url contains nav-item.permalink %}active{% endif %}{% endcapture %}
@@ -31,4 +35,5 @@
     </ul>
 
     </div>
+</div>
 </nav>
