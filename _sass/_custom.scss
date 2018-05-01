@@ -43,7 +43,7 @@ main{
   width:800px;
 }
 .navbar-light .navbar-nav .nav-link{
-  color: $clientcolor-2;
+  color: white;
   font-family: $myfont-family-title;
   font-weight: $font-weight-light;
   font-size: 20px;
@@ -52,11 +52,11 @@ main{
   width: 100px;
 }
 .navbar-light .navbar-nav .nav-link:hover{
-  color: white;
+  color: $clientcolor-2;
   transition: color 0.5s ease;
 }
 .navbar-light .navbar-nav .active>.nav-link, {
-  color: white;
+  color: $clientcolor-2;
 }
 .fixed-top{
   z-index: 0;
@@ -94,6 +94,9 @@ footer {
             
         }
     }
+}
+.gegevens{
+  padding-top: 60px;
 }
 
 /* BACK TO TOP
@@ -135,6 +138,12 @@ footer {
 .container2{
   float: left;
   
+}
+.fa-futbol{
+  color: $clientcolor-2;
+}
+.missie{
+  text-align: center;
 }
 .logoalgemeen{
   height: 210px;
@@ -261,5 +270,6 @@ a:hover{
 .footertxt{
   text-align: center;
   padding: 20px;
+  padding-top: 30px;
   font-size: 10px;
 }
